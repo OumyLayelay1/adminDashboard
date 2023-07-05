@@ -40,7 +40,7 @@ body{
     width: 100vw;
     height: 100vh;
     font-family: Poppins, sans-serif;
-    font-size: 0,88rem;
+    font-size: 0.88rem;
     background: var(--color-background);
     user-select: none;
     overflow-x: hidden;
@@ -83,7 +83,7 @@ small{
     width: 2.8rem;
     height: 2.8rem;
     border-radius: 50%;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 .text-muted{
     color: var(--color-info-dark);
@@ -110,7 +110,6 @@ aside{
     height: 100vh;
 }
 aside .top{
-    background: white;
     display: flex;
     align-items: center;
     justify-content: space-between;
